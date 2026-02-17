@@ -1,22 +1,35 @@
 SwiftCart E-Commerce Website
+
 SwiftCart is a responsive e-commerce web application built with HTML, Tailwind CSS, Daisy-UI, and Vanilla JavaScript. This project dynamically fetches products and categories from an API and provides a clean, modern, and user-friendly shopping interface.
-Features:
+
+Features
 
 Responsive Navbar with logo, menu, and cart icon.
+
 Hero/Banner Section showcasing featured collections.
+
 Dynamic Product Categories fetched from API.
+
 Filter Products by Category with instant display.
+
 Product Cards displaying image, title, price, category, and rating.
+
 Add to Cart Button with cart count update.
+
 Modal/Details Button to view product details.
+
 Newsletter Section for user subscription.
+
 Footer with basic information (can be expanded).
 
-Technologies Used:
+Technologies Used
 
 HTML5
+
 Tailwind CSS
+
 Daisy-UI
+
 Vanilla JavaScript
 
 ## Live Demo:
