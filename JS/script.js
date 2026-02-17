@@ -25,7 +25,6 @@ const displayCategories = (categories) => {
         const button = document.createElement("button");
         button.innerHTML = categori;
         button.classList = "px-4 py-1 border-2 rounded-3xl text-sm text-gray-600 font-bold my-2 categori-btn";
-        button.id = "category";
 
         button.addEventListener("click", function () {
             removeActiveClass();
@@ -77,5 +76,6 @@ const displayProduct = (products) => {
     });
 
 }
+
 loadAllCategories();
 loadAllPorduct();
