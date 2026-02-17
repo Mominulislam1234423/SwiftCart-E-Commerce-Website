@@ -1,4 +1,4 @@
-const showSection = (id)=> {
+const showSection = (id) => {
     document.getElementById('show-home').classList.add('hidden');
     document.getElementById('show-prodact').classList.add('hidden');
     // document.getElementById('show-about-section').classList.add('hidden');
@@ -12,4 +12,10 @@ const removeActiveClass = () => {
     for (let btn of button) {
         btn.classList.remove("active");
     }
+}
+
+let cartCount = 0;
+const addItam = () => {
+    cartCount++;
+    document.getElementById("ital-count").innerText = cartCount;
 }

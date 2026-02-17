@@ -56,9 +56,9 @@ const displayProduct = (products) => {
                     <p class="text-md font-bold text-gray-500 truncate">${product.title}</p>
                     <h4 class="text-lg font-bold">$${product.price}</h4>
                     <div class="flex justify-between">
-                        <button class="space-x-2 border-2 py-1 px-4 rounded-md"><i
+                        <button class="space-x-2 btn border-2 py-1 px-4 rounded-md"><i
                                 class="fa-solid fa-circle-info"></i>Details</button>
-                        <button class="space-x-2 border-2 py-1 px-4 rounded-md"><i
+                        <button onclick="addItam()" class="space-x-2 border-2 btn py-1 px-4 rounded-md"><i
                                 class="fa-solid fa-cart-shopping"></i>add</button>
                     </div>
                 </div>

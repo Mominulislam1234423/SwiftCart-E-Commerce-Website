@@ -30,18 +30,18 @@
 <body>
     <header class="lg:w-3/4 md:w-5/6 w-11/12 mx-auto my-4">
         <!-- navber section  -->
-        <nav class="flex justify-between itmes-center">
+        <nav class="flex justify-between items-center">
             <h1 class="text-2xl font-bold text-blue-800">SwiftCart</h1>
             <ul
-                class="flex itmes-center gap-4 font-bold text-gray-500 cursor-pointer hidden lg:inline-flex md:inline-flex">
+                class="flex items-center gap-4 font-bold text-gray-500 cursor-pointer hidden lg:inline-flex md:inline-flex">
                 <li id="home-btn" class="hover:text-blue-800"><a href="#">Home</a></li>
                 <li id="products-btn" class="hover:text-blue-800"><a href="#">Products</a></li>
                 <li class="hover:text-blue-800"><a href="#">About</a></li>
                 <li class="hover:text-blue-800"><a href="#">Contact</a></li>
             </ul>
-            <div class="space-x-2">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <i class="fa-solid fa-bars lg:hidden md:hidden"></i>
+            <div class="space-x-2 flex items-center">
+                <div class="flex items-center gap-1"><i class="fa-solid fa-cart-shopping"></i><p id="ital-count" class="font-bold">0</p></div>
+             <div>   <i class="fa-solid fa-bars lg:hidden md:hidden"></i></div>
             </div>
         </nav>
     </header>
@@ -71,7 +71,7 @@
                 <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-8 mt-8">
                     <div class=" space-y-2 p-4 relative shadow-md mt-8">
                         <div
-                            class="w-10 py-2 rounded-md flex justify-center itmes-center bg-blue-100 border-4 border-white absolute bottom-28 left-4 shadow-md">
+                            class="w-10 py-2 rounded-md flex justify-center items-center bg-blue-100 border-4 border-white absolute bottom-28 left-4 shadow-md">
                             <i class="fa-regular fa-truck text-blue-800"></i>
                         </div>
                         <h3 class="text-xl font-bold text-gray-500">Fast Delivery</h3>
@@ -81,7 +81,7 @@
                     </div>
                     <div class=" space-y-2 p-4 relative shadow-md mt-8">
                         <div
-                            class="w-10 py-2 rounded-md flex justify-center itmes-center bg-blue-100 border-4 border-white absolute bottom-28 left-4 shadow-md">
+                            class="w-10 py-2 rounded-md flex justify-center items-center bg-blue-100 border-4 border-white absolute bottom-28 left-4 shadow-md">
                             <i class="fa-regular fa-headphones text-blue-800"></i>
                         </div>
                         <h3 class="text-xl font-bold text-gray-500">24/7 Support</h3>
@@ -90,7 +90,7 @@
                     </div>
                     <div class=" space-y-2 p-4 relative shadow-md mt-8">
                         <div
-                            class="w-10 py-2 rounded-md flex justify-center itmes-center bg-blue-100 border-4 border-white absolute bottom-28 left-4 shadow-md">
+                            class="w-10 py-2 rounded-md flex justify-center items-center bg-blue-100 border-4 border-white absolute bottom-28 left-4 shadow-md">
                             <i class="fa-solid fa-lock text-blue-800"></i>
                         </div>
                         <h3 class="text-xl font-bold text-gray-500">Secure Payment</h3>
@@ -101,7 +101,7 @@
                     </div>
                     <div class=" space-y-2 p-4 relative shadow-md mt-8">
                         <div
-                            class="w-10 py-2 rounded-md flex justify-center itmes-center bg-blue-100 border-4 border-white absolute bottom-28 left-4 shadow-md">
+                            class="w-10 py-2 rounded-md flex justify-center items-center bg-blue-100 border-4 border-white absolute bottom-28 left-4 shadow-md">
                             <i class="fa-solid fa-arrow-rotate-left text-blue-800"></i>
                         </div>
                         <h3 class="text-xl font-bold text-gray-500">Easy Returns</h3>
@@ -120,7 +120,7 @@
                             <img class="lg:h-80 md:h-80 h-auto w-full bg-gray-100 p-6" src="Assets/top-1.png">
                         </div>
                         <div class="p-2 space-y-2">
-                            <div class="flex justify-between itmes-center">
+                            <div class="flex justify-between items-center">
                                 <button class="bg-blue-100 text-blue-800 text-sm px-2 rounded-xl">Wamen's
                                     Clothing</button>
                                 <span><i class="fa-solid fa-star text-yellow-500"></i>3.8(679)</span>
@@ -140,7 +140,7 @@
                             <img class="lg:h-80 md:h-80 h-auto w-full bg-gray-100 p-6" src="Assets/top-2.png">
                         </div>
                         <div class="p-2 space-y-2">
-                            <div class="flex justify-between itmes-center">
+                            <div class="flex justify-between items-center">
                                 <button class="bg-blue-100 text-blue-800 text-sm px-2 rounded-xl">Wamen's
                                     Clothing</button>
                                 <span><i class="fa-solid fa-star text-yellow-500"></i>4.7(500)</span>
@@ -160,7 +160,7 @@
                             <img class="lg:h-80 md:h-80 h-auto w-full bg-gray-100 p-6" src="Assets/top-3.png">
                         </div>
                         <div class="p-2 space-y-2">
-                            <div class="flex justify-between itmes-center">
+                            <div class="flex justify-between items-center">
                                 <button class="bg-blue-100 text-blue-800 text-sm px-2 rounded-xl">Electronice</button>
                                 <span><i class="fa-solid fa-star text-yellow-500"></i>2.9(470)</span>
                             </div>
@@ -179,7 +179,7 @@
                             <img class="lg:h-80 md:h-80 h-auto w-full bg-gray-100 p-6" src="Assets/top-4.png">
                         </div>
                         <div class="p-2 space-y-2">
-                            <div class="flex justify-between itmes-center">
+                            <div class="flex justify-between items-center">
                                 <button class="bg-blue-100 text-blue-800 text-sm px-2 rounded-xl">Wamen's
                                     Clothing</button>
                                 <span><i class="fa-solid fa-star text-yellow-500"></i>2.1(430)</span>
@@ -205,7 +205,7 @@
                 <h1 class="text-2xl font-bold text-center">Our Products</h1>
 
                 <div id="Categories-button" class="mt-8 space-x-4 flex justify-center flex-wrap">
-                    <button class="px-4 py-1 my-2 border-2 rounded-3xl text-sm text-gray-600 font-bold">All</button>
+                    <button id="all-btn" class="px-4 py-1 my-2 border-2 rounded-3xl text-sm text-gray-600 font-bold">All</button>
 
                 </div>
             </div>
