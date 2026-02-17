@@ -14,6 +14,8 @@ SwiftCart is a responsive e-commerce web application built with HTML, Tailwind C
 - Newsletter Section for user subscription
 - Footer with basic information (can be expanded)
 
+
+
 ## Technologies Used
 
 - HTML5
