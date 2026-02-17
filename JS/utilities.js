@@ -6,3 +6,10 @@ const showSection = (id)=> {
 
     document.getElementById(id).classList.remove('hidden');
 }
+
+const removeActiveClass = () => {
+    const button = document.getElementsByClassName("categori-btn");
+    for (let btn of button) {
+        btn.classList.remove("active");
+    }
+}

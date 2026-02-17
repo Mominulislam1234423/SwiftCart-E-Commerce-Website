@@ -10,13 +10,6 @@ const loadAllCategories = () => {
         .then(data => displayCategories(data))
 }
 
-const removeActiveClass = () => {
-    const button = document.getElementsByClassName("categori-btn");
-    for (let btn of button) {
-        btn.classList.remove("active");
-    }
-}
-
 const displayCategories = (categories) => {
     const CategoriesButton = document.getElementById("Categories-button");
 
