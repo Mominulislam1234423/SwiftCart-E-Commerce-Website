@@ -9,8 +9,16 @@
     <title>SwiftCart E-Commerce</title>
     <link rel="stylesheet" href="Style/style.css">
 
-    <!-- add tailwind -->
+    <!-- add tailwind & daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- google-font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Asimovian&family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Bebas+Neue&family=Hind+Siliguri:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
     <!-- font-awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -44,7 +52,7 @@
             <div class=" h-[450px] lg:w-3/4 md:w-5/6 w-11/12 mx-auto flex items-start flex-col justify-center gap-4">
                 <h1 class="text-5xl font-bold text-white">Best Collection For You</h1>
                 <p class="text-white">Discover the latest trends in fashion, electronice and more shop with <br
-                        class="hidden lg;inline md:inline">
+                        class="hidden lg:inline md:inline">
                     confidence and style at
                     SwiftCart.
                 </p>
@@ -112,24 +120,7 @@
                     <p class="text-gray-500 text-sm">Get your oders delivered to your doorstep quickly and efficiently.
                     </p>
                 </div>
-                <div class=" space-y-2 p-4 shadow-md mt-4">
-                    <div
-                        class="w-10 py-2 rounded-md flex justify-center itmes-center bg-blue-100 border-4 border-white bottom-28 left-4 shadow-md">
-                        <i class="fa-regular fa-truck text-blue-800"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-500">Fast Delivery</h3>
-                    <p class="text-gray-500 text-sm">Get your oders delivered to your doorstep quickly and efficiently.
-                    </p>
-                </div>
-                <div class=" space-y-2 p-4 shadow-md mt-4">
-                    <div
-                        class="w-10 py-2 rounded-md flex justify-center itmes-center bg-blue-100 border-4 border-white bottom-28 left-4 shadow-md">
-                        <i class="fa-regular fa-truck text-blue-800"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-500">Fast Delivery</h3>
-                    <p class="text-gray-500 text-sm">Get your oders delivered to your doorstep quickly and efficiently.
-                    </p>
-                </div>
+
             </div>
         </section>
 
@@ -138,10 +129,11 @@
             <h1 class="text-2xl font-bold text-center">Our Products</h1>
 
             <div id="Categories-button" class="mt-8 space-x-4 flex justify-center flex-wrap">
-                <button class="px-4 py-1 border-2 rounded-3xl text-sm text-gray-600 font-bold">All</button>
+                <!-- <button class="px-4 py-1 my-2 border-2 rounded-3xl text-sm text-gray-600 font-bold">All</button> -->
 
             </div>
         </section>
+
 
         <!-- app products section  -->
         <section class="lg:w-3/4 md:w-5/6 w-11/12 mx-auto my-8">
