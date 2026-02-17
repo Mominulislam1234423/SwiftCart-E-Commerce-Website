@@ -1,6 +1,6 @@
-#SwiftCart E-Commerce Website
+##SwiftCart E-Commerce Website
 
-SwiftCart is a responsive e-commerce web application built with HTML, Tailwind CSS, Daisy-Ui and Vanilla JavaScript. This project dynamically fetches products, categories and provides a clean, modern, and user-friendly shopping interface.
+##SwiftCart is a responsive e-commerce web application built with HTML, Tailwind CSS, Daisy-Ui and Vanilla JavaScript. This project dynamically fetches products, categories and provides a clean, modern, and user-friendly shopping interface.
 
 ##Features:
 Responsive Navbar with logo, menu, and cart icon.
