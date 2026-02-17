@@ -17,7 +17,7 @@ const displayCategories = (categories) => {
 
         const button = document.createElement("button");
         button.innerHTML = categori;
-        button.classList = "px-4 py-1 border-2 rounded-3xl text-sm text-gray-600 font-bold my-2 categori-btn";
+        button.classList = "px-4 py-1 border-2 rounded-3xl text-sm text-gray-600 font-bold my-2 hover:bg-blue-800 hover:text-white categori-btn";
 
         button.addEventListener("click", function () {
             removeActiveClass();
@@ -34,6 +34,7 @@ const loadcategori = (category) => {
         .then(res => res.json())
         .then(data => displayProduct(data))
 };
+
 
 
 const displayProduct = (products) => {
@@ -56,7 +57,7 @@ const displayProduct = (products) => {
                     <p class="text-md font-bold text-gray-500 truncate">${product.title}</p>
                     <h4 class="text-lg font-bold">$${product.price}</h4>
                     <div class="flex justify-between">
-                        <button class="space-x-2 btn border-2 py-1 px-4 rounded-md"><i
+                        <button onclick="loadWordDetail(${products.id})" class="space-x-2 btn border-2 py-1 px-4 rounded-md"><i
                                 class="fa-solid fa-circle-info"></i>Details</button>
                         <button onclick="addItam()" class="space-x-2 border-2 btn py-1 px-4 rounded-md"><i
                                 class="fa-solid fa-cart-shopping"></i>add</button>
