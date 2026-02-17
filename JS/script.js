@@ -76,6 +76,16 @@ const displayProduct = (products) => {
     });
 
 }
+// const loadTopRatePorduct = () => {
+//     fetch("https://fakestoreapi.com/products")
+//         .then(res => res.json())
+//         .then(data => displaytopProduct(data))
+// }
+// const displaytopProduct = (data) => {
+// console.log(data)
+// }
+// const topRateSection = document.getElementById("top-rate-section");
 
 loadAllCategories();
 loadAllPorduct();
+// loadTopRatePorduct();
