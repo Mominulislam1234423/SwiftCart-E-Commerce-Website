@@ -54,9 +54,8 @@ const displayWOrd = (word) => {
                         <button class="bg-blue-100 text-blue-800 text-sm px-2 rounded-xl">${word.category}</button>
                         <span><i class="fa-solid fa-star text-yellow-500"></i>${word.rating.rate}(${word.rating.count})</span>
                     </div>
-                    <p class="text-md font-bold text-gray-500 truncate">${word.title}</p>
+                    <p class="text-md font-bold text-gray-500">${word.title}</p>
                     <h4 class="text-lg font-bold">$${word.price}</h4>
-                  
                 </div>
             </div>
     `;
@@ -97,16 +96,6 @@ const displayProduct = (products) => {
     });
 
 }
-// const loadTopRatePorduct = () => {
-//     fetch("https://fakestoreapi.com/products")
-//         .then(res => res.json())
-//         .then(data => displaytopProduct(data))
-// }
-// const displaytopProduct = (data) => {
-// console.log(data)
-// }
-// const topRateSection = document.getElementById("top-rate-section");
 
 loadAllCategories();
 loadAllPorduct();
-// loadTopRatePorduct();
