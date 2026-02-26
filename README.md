@@ -28,8 +28,8 @@ SwiftCart is a responsive e-commerce web application built with HTML, Tailwind C
 https://mominulislam1234423.github.io/SwiftCart-E-Commerce-Website/
 
 ## Screenshot
-![SwiftCart E-Commerce Website Screenshot](./assets/Screenshot_2.png)
-![SwiftCart E-Commerce Website Screenshot](./assets/Screenshot_3.png)
+![SwiftCart Screenshot](Assets/Screenshot_2.png)
+![SwiftCart Screenshot](Assets/Screenshot_3.png)
 
 ## Answer to the questions:
 1) What is the difference between null and undefined?
