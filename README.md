@@ -27,6 +27,10 @@ SwiftCart is a responsive e-commerce web application built with HTML, Tailwind C
 ## Live Demo:
 https://mominulislam1234423.github.io/SwiftCart-E-Commerce-Website/
 
+## Screenshot
+(./assets/Screenshot_2.png)
+(./assets/Screenshot_3.png)
+
 ## Answer to the questions:
 1) What is the difference between null and undefined?
 -  ভেরিয়েবলের কোন মান দেওয়া না থাকলে undefined দেখায়। আর মান নাই বা খালি বুঝাতে null ব্যবহার করা হয়।
